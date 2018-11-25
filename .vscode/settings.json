@@ -1,0 +1,21 @@
+{
+  // .eslintrc
+  /*
+    {
+      "extends":["react-app","plugin:prettier/recommended"],
+    }
+  */
+  //yarn add prettier eslint-config-prettier eslint-plugin-prettier --dev
+  "javascript.validate.enable": false,
+  // front end format and lint
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": false
+  },
+  "eslint.autoFixOnSave": true,
+  "eslint.alwaysShowStatus": true,
+  "prettier.disableLanguages": ["js", "javascriptreact", "php"]
+}
