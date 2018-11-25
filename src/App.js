@@ -149,10 +149,10 @@ class App extends Component {
 
     return (
       <div className="container">
-        <h3 className="text-muted text-centre lead pt2">
+        <h3 className="text-muted   lead pt-2">
           Optimistic ui updates with react
         </h3>
-        <div className="list-group">
+        <div className="list-group col">
           {tweets.map((tweet, index) => {
             return (
               <Tweet
